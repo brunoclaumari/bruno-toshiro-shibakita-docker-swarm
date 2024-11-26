@@ -13,10 +13,10 @@ header('Content-Type: text/html; charset=iso-8859-1');
 
 echo 'Versao Atual do PHP: ' . phpversion() . '<br>';
 
-$servername = "54.234.153.24";
+$servername = "<IP_HOST_MYSQL>"; // ex: 192.168.15.150
 $username = "root";
 $password = "Senha123";
-$database = "meubanco";
+$database = "meubanco";//NOME DO BANCO DE DADOS
 
 // Criar conexão
 
